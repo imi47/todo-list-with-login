@@ -1,0 +1,128 @@
+body, body *{
+	margin: 0;
+	padding: 0;
+	font-family: 'ubuntu', Arial, Helvetica, sans-serif;
+	color: #444;
+	font-weight: normal;
+}
+
+header {
+	border-bottom: 1px solid #ddd;
+	padding: 5px;
+	margin-bottom: 25px;
+	overflow: auto;
+}
+
+header #app_name {	
+	text-decoration: none;
+	color: inherit;
+	font-size: x-large;
+}
+
+/*header + a, header + a + a, header + a + a + a {*/
+	#login_btn, #logout_btn, #signup_btn {
+		/* display: inline-block; */
+		text-decoration: none;
+		color: inherit;
+		padding: 5px;
+		margin: 0 5px 0 5px;
+		border: 1px solid lightgray;
+		border-radius: 3px;
+		background-color: #eee;
+		float: right;
+	}
+
+	#login_btn:active, #logout_btn:active, #signup_btn:active {
+		background-color: #ddd;
+	}
+	
+	
+input, button {
+		padding: 15px;
+		margin: 15px auto;
+		border-radius: 3px;
+	}
+	
+input[type='text'], input[type='password'], input[type='email'] {
+	
+	display: block;
+	width: 300px;
+	border: 1px solid #ddd;
+	font-size: medium;
+}
+
+input[type='submit'], input[type='button'], button {
+	border: 1px solid #1873cc;
+	background-color: dodgerblue;
+	color: white;
+	font-size: large;
+	margin: 0 10px;
+}
+
+.error {
+	color: red;
+	text-align: center;
+}
+
+.success {
+	color: green;
+	text-align: center;
+}
+
+.task_container{
+	width: 50%;
+	margin: 30px auto;
+	border: 1px solid #ddd;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: left;
+}
+
+.task_container h3{
+	margin: 0;
+	text-align: left;
+}
+
+.task_container a{
+	display: inline-block;
+	margin: 5px 5px 0 0;
+}
+
+.task_container #description, .task_container button {
+	display: none;
+}
+
+form {
+	text-align: center;
+}
+
+#container {
+	text-align: center;
+}
+
+#username {
+	text-align: center;
+}
+
+button {
+display: block;
+margin: 0 auto;
+}
+
+#cancel_btn {
+	background-color: orange;
+	border: 1px solid #cc8400;
+}
+
+#description {
+	width: 50%;
+}
+
+form button {
+	display: inline;
+}
+
+form button a {
+	text-decoration: none;
+	color: #fff;
+}
